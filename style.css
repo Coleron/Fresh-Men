@@ -1,1 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
 
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid #FFFFFF;
+    
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid #FFFFFF;
+}
+
+
+.main-nav li a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 35px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+h1 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+    float: center;
+    
+}
+
+h2 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 275px;
+    float: center;
+    
+}
+
+h3 {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    float: center;
+    
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Abstract Background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+    float: left;
+    
+}
