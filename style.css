@@ -1,6 +1,6 @@
 body {
-	background: url(https://www.thisiscolossal.com/wp-content/uploads/2014/03/room-4.jpg) no-repeat center center;
-  	background-size: 25%; 
+	<div style="position:absolute;width:5.5in;height:5.5in;top:0;left:0 background: url(https://www.thisiscolossal.com/wp-content/uploads/2014/03/room-4.jpg) no-repeat center center; background-size: cover">
+  	</div>
 	text-align:center;
 	font-family:Helvetica;
 	font-size:24px;
